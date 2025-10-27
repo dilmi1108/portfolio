@@ -112,8 +112,8 @@ const Contact = () => {
                   <div className="contact-icon">💼</div>
                   <div className="contact-details">
                     <h4>LinkedIn</h4>
-                    <a href="www.linkedin.com/in/dilmi-sooriyaarachchi-10a708305" target="_blank" rel="noopener noreferrer">
-                      www.linkedin.com/in/dilmi-sooriyaarachchi-10a708305/
+                    <a href="https://www.linkedin.com/in/dilmi-sooriyaarachchi-10a708305/ " target="_blank" rel="noopener noreferrer">
+                     www.linkedin.com/in/dilmi-sooriyaarachchi-10a708305
                     </a>
                   </div>
                 </div>
@@ -132,7 +132,7 @@ const Contact = () => {
                   <div className="contact-icon">📱</div>
                   <div className="contact-details">
                     <h4>Phone</h4>
-                    <a href="tel:+94 703038659">0703038659</a>
+                    <a href="tel:+94 703038659">tel: +94 703038659</a>
                   </div>
                 </div>
               </div>
