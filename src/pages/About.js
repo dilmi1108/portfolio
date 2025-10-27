@@ -11,16 +11,12 @@ const About = () => {
               <h1 className="section-title">About Me</h1>
               <p className="about-description">
                 
-                Hello! I'm Dilmi Sooriyaarachchi, 
-                I'm a dedicated and curious student at the Institute of Technology, University of Moratuwa
-                currently pursuing my National Diploma in Information Technology. With a passion for building 
-                user-friendly digital experiences, I'm on a journey to become a full-stack web developer 
-                who blends creativity with functionality.
+                Hello! I'm Dilmi Sooriyaarachchi, a dedicated and curious student at the Institute of Technology, University of Moratuwa, currently pursuing a National Diploma in Information Technology.
+                 With a passion for ensuring software quality, I’m on a journey to become a Quality Assurance Engineer who guarantees reliable, efficient, and user-friendly digital experiences.
               </p>
               <p className="about-description">
-               I enjoy turning complex problems into simple, elegant solutions through clean code and thoughtful
-               design. My learning path has taken me through various frontend and backend technologies, and I continuously
-               challenge myself with new tools, frameworks, and projects.
+               I specialize in both manual and automation testing, ensuring that applications perform seamlessly across all stages of development. I enjoy analyzing systems, identifying defects, and validating functionality to maintain the highest quality standards. 
+               My learning journey has equipped me with a strong foundation in QA methodologies, testing tools, and continuous improvement practices, and I’m always eager to explore new technologies that enhance software quality and performance.
               </p>
             </div>
             <div className="about-image fade-in">
@@ -40,68 +36,84 @@ const About = () => {
           <div className="skills-grid grid grid-3">
             <div className="skill-card card">
               <div className="skill-icon">🖥️</div>
-              <h3>Frontend Development</h3>
-              <p>React, JavaScript, HTML5, CSS3, Responsive Design</p>
+              <h3>Test Automation</h3>
+              <p>Selenium WebDriver, TestNG, Maven, PageObject Model, Data-Driven Testing</p>
             </div>
             <div className="skill-card card">
               <div className="skill-icon">⚙️</div>
-              <h3>Backend Development</h3>
-              <p>Node.js, Express, Python, Database Design</p>
+              <h3>Programming</h3>
+              <p>Java, JavaScript, Python, PHP, HTML5, CSS3, Tailwind CSS</p>
             </div>
             <div className="skill-card card">
               <div className="skill-icon">🛠️</div>
-              <h3>Tools & Technologies</h3>
-              <p>Git, Docker, AWS, MongoDB, Linux</p>
+              <h3>  Technologies</h3>
+              <p>React.js, Next.js, Node.js, MySQL, MongoDB, Git, Postman, RESTful APIs</p>
             </div>
           </div>
         </div>
       </section>
 
-        {/* Projects & Learning Experience */}
+
+{/* Projects & Learning Experience */}
 <section className="experience section">
   <h2 className="section-title">Projects & Learning Experience</h2>
   <div className="timeline">
+
+    {/* Academic Projects */}
     <div className="timeline-item">
       <div className="timeline-marker"></div>
       <div className="timeline-content card">
-        <h3>Student Projects at ITUM</h3>
-        <h4>Academic & Personal</h4>
+        <h3>Academic Projects – Institute of Technology, University of Moratuwa (ITUM)</h3>
+        <h4>Frontend & Backend Development</h4>
         <span className="timeline-date">2023 - Present</span>
         <p>
-          Built several academic projects involving frontend and backend development. 
-          Gained hands-on experience with technologies like HTML, CSS, JavaScript, React, Node.js, and Python.
-          Projects include portfolio websites, task managers, and web-based systems for small businesses.
+          Developed multiple academic projects that enhanced both frontend and backend skills.
+          Focused on practical implementation using <strong>HTML, CSS, MySQL, and JavaScript</strong>.
+          Successfully built the <strong>Web-Based Conference Management System</strong>, a dynamic web application
+          featuring user registration, session scheduling, and validation forms.
+          These projects strengthened understanding of responsive design, data handling, and system development processes.
         </p>
       </div>
     </div>
 
+    {/* Self-Learning */}
     <div className="timeline-item">
       <div className="timeline-marker"></div>
       <div className="timeline-content card">
-        <h3>Self-Learning & Practice</h3>
-        <h4>Online Courses & Tutorials</h4>
+        <h3>Self-Learning & Certifications</h3>
+        <h4>Continuous Learning & Professional Growth</h4>
         <span className="timeline-date">2022 - Present</span>
         <p>
-          Completed multiple online tutorials and certifications to improve full-stack development skills.
-          Focused on JavaScript frameworks, version control, responsive design, and backend integration.
+          Continuously improving knowledge in software testing and automation through self-learning
+          and professional certifications. Following the <strong>Automation Certificate Course</strong> at 
+          <strong> Developer Stack Institute</strong> and earned the <strong>Postman API Student Expert Certification</strong>.
+          Also followed <strong>Open UOM courses</strong> in Software Quality Assurance and Python Programming.
+          Gained practical exposure to <strong>Java, Selenium, TestNG, and Maven</strong> for automation testing
+          and framework development, further enhancing my QA and development capabilities.
         </p>
       </div>
     </div>
 
+    {/* Final Year Group Project */}
     <div className="timeline-item">
       <div className="timeline-marker"></div>
       <div className="timeline-content card">
-        <h3>Collaboration with Peers</h3>
-        <h4>Team Mini Projects</h4>
-        <span className="timeline-date">2023</span>
+        <h3>Final Year Group Project – Smart Garment Production Tracking System</h3>
+        <h4>Development & Manual Testing</h4>
+        <span className="timeline-date">2025</span>
         <p>
-          Worked on group projects with classmates to simulate real-world development. 
-          Practiced Git collaboration, UI/UX design, and project planning in a team setting.
+          Collaborated with peers on a comprehensive manufacturing solution using the MERN stack and IoT.
+          Contributed to both <strong>system development</strong> and <strong>manual testing</strong> by designing and executing detailed test cases,
+          performing API testing, and measuring performance using JMeter.
+          This project improved teamwork, analytical thinking, and practical testing experience.
         </p>
       </div>
     </div>
+
   </div>
 </section>
+
+
 
 
       </div>

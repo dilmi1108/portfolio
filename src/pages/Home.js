@@ -14,10 +14,10 @@ const Home = () => {
             <h1 className="hero-title">
               Hi, I'm <span className="text-primary animated-name">Dilmi Sooriyaarachchi</span>
             </h1>
-            <h2 className="hero-subtitle">Full Stack Developer</h2>
+            <h2 className="hero-subtitle">Quality assurance</h2>
             <p className="hero-description">
-              I create amazing web experiences with modern technologies. 
-              Passionate about clean code, user experience, and continuous learning.
+              I’m passionate about software quality and user satisfaction.
+              Exploring modern QA tools and testing methods to ensure every product performs flawlessly.
             </p>
             <div className="hero-buttons">
                 <a href="#projects" className="btn btn-white">

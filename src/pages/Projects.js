@@ -4,64 +4,77 @@ const Projects = () => {
   const projects = [
     {
       id: 1,
-      title: "Library Management System",
-      description: "A web-based Library Management System to streamline book tracking, student records, and borrowing activities efficiently.",
-      image: "/images/Library.jpg",
-      technologies: ["HTML", "CSS", "JavaScript", "MySQL", "PHP"],
+      title: "Smart Garment Production Tracking System (SGPTOS)",
+      description:
+        "Final year group project developed using the MERN stack with RFID and IoT integration. Contributed to both development and manual testing, including API and performance testing using JMeter.",
+      image: "/images/SGPTOS.jpg", // update your image path
+      technologies: ["React", "Node.js", "MongoDB", "IoT", "JMeter", "Postman"],
+      link: "https://github.com/SasinduV0/SGPTOS-FinalProject.git",
     },
     {
       id: 2,
-      title: "Learning Management System",
-      description: "A personal productivity app for students to manage tasks, track mood, view academic calendar, and access subject materials in one place.",
-      image:"/images/Learn.jpg",
-      technologies: ["React", "Node.js", "MongoDB", "Stripe", "JWT"],
+      title: "POS System Automation Testing Framework",
+      description:
+        "Developed a comprehensive automation testing framework for a POS system using Java, Selenium WebDriver, TestNG, and Maven. Implemented Page Object Model for better scalability and reusability.",
+      image: "/images/POS.jpg",
+      technologies: ["Java", "Selenium", "TestNG", "Maven"],
+      link: "https://github.com/dilmi1108/FrameWork.git",
     },
     {
       id: 3,
-      title: "To-do app",
-      description: " simple and intuitive To-Do App to manage daily tasks, set priorities, and stay organized.",
-      image: "/images/todo.jpg",
-      technologies: ["React", "Firebase", "Material-UI", "Socket.io"],
+      title: "Java Library Management System",
+      description:
+        "A Java-based console application designed to manage library operations including book tracking, borrowing, and user management. Focused on manual testing and validation of core functionalities.",
+      image: "/images/Library.jpg",
+      technologies: ["Java"],
+      link: "https://github.com/dilmi1108/LibraryManagementSystem.git",
     },
     {
       id: 4,
-      title: "Weather Dashboard",
-      description: "A responsive weather application that provides current weather conditions and forecasts with interactive maps and charts.",
-      image: "/images/Weather.jpg",
-      technologies: ["React", "OpenWeather API", "Chart.js", "CSS"],
+      title: "Web-Based Conference Management System",
+      description:
+        "A web-based system for managing academic conferences with session scheduling, user registration, and form validation. Developed using HTML, CSS, JavaScript, and MySQL.",
+      image: "/images/Conference.jpg",
+      technologies: ["HTML", "CSS", "JavaScript", "MySQL"],
+      link: "https://github.com/dilmi1108/WebBasedConferenceDayManagementSystem.git",
     },
     {
       id: 5,
-      title: "E-Commerce Platform",
-      description: "A full-featured online shopping platform with user authentication, product catalog, shopping cart, and payment integration.",
-      image: "/images/E-com.jpg",
-      technologies: ["React", "CSS", "JavaScript", "Firebase"],
+      title: "Basic Test Automation Scripts",
+      description:
+        "Learning project focusing on foundational automation testing using Selenium WebDriver and TestNG with Java. Practiced applying the Page Object Model design pattern for script reusability.",
+      image: "/images/Automation.jpg",
+      technologies: ["Java", "Selenium", "TestNG"],
+      link: "https://github.com/dilmi1108/BasicAutomationScipt.git",
     },
     {
-      id: 6,
-      title: "clothing App",
-      description: "A stylish and user-friendly app for browsing, selecting, and purchasing fashion items online",
-      image: "images/clothing.jpg",
-      technologies: ["React", "MySQL", "CSS"],
+      id: 5,
+      title: "StyleHub – A Modern Clothing Web App",
+      description:
+        "StyleHub, a responsive clothing e-commerce web application built with ReactJS, Vite, and Tailwind CSS. Features dynamic product listings, user authentication, and a shopping cart.",
+      image: "/images/ClothingWeb.jpg",
+      technologies: ["ReactJS", "Vite", "Tailwind CSS"],
+      link: "https://github.com/dilmi1108/stylehub-clothingapp.git",
     },
   ];
 
   return (
     <div className="projects">
       <div className="container">
-        {/* Projects Hero */}
-        <section id="projects"  className="projects-hero section">
+        {/* Projects Hero Section */}
+        <section id="projects" className="projects-hero section">
           <h1 className="section-title fade-in-up">My Projects</h1>
           <p className="projects-subtitle fade-in-up">
-            I’ve developed several web applications during my academic journey to explore real-world problem-solving with code. 
-            Below is a showcase of projects including my personal student-focused companion app, along with other featured works.
+            Here’s a collection of my academic, automation, and self-learning projects showcasing my
+            hands-on experience in development, testing, and continuous learning. Each project helped
+            strengthen my QA engineering and software development skills.
           </p>
         </section>
 
         {/* Projects List */}
         <section className="other-projects section">
           <div className="projects-grid grid grid-3">
-            {projects.map(project => (
+            {projects.map((project) => (
               <div key={project.id} className="project-card card fade-in-up">
                 <div className="project-image">
                   <img src={project.image} alt={project.title} />
@@ -71,8 +84,20 @@ const Projects = () => {
                   <p>{project.description}</p>
                   <div className="project-technologies">
                     {project.technologies.map((tech, index) => (
-                      <span key={index} className="tech-tag">{tech}</span>
+                      <span key={index} className="tech-tag">
+                        {tech}
+                      </span>
                     ))}
+                  </div>
+                  <div className="project-links mt-4">
+                    <a
+                      href={project.link}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="btn-github"
+                    >
+                      View on GitHub
+                    </a>
                   </div>
                 </div>
               </div>
