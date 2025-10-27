@@ -8,7 +8,7 @@ const Projects = () => {
       description:
         "Final year group project developed using the MERN stack with RFID and IoT integration. Contributed to both development and manual testing, including API and performance testing using JMeter.",
       image: "/images/SGPTOS.jpg", // update your image path
-      technologies: ["React", "Node.js", "MongoDB", "IoT", "JMeter", "Postman"],
+      technologies: ["React", "Node.js", "MongoDB", "IoT", "JMeter"],
       link: "https://github.com/SasinduV0/SGPTOS-FinalProject.git",
     },
     {
@@ -46,15 +46,6 @@ const Projects = () => {
       image: "/images/Automation.jpg",
       technologies: ["Java", "Selenium", "TestNG"],
       link: "https://github.com/dilmi1108/BasicAutomationScipt.git",
-    },
-    {
-      id: 5,
-      title: "StyleHub – A Modern Clothing Web App",
-      description:
-        "StyleHub, a responsive clothing e-commerce web application built with ReactJS, Vite, and Tailwind CSS. Features dynamic product listings, user authentication, and a shopping cart.",
-      image: "/images/ClothingWeb.jpg",
-      technologies: ["ReactJS", "Vite", "Tailwind CSS"],
-      link: "https://github.com/dilmi1108/stylehub-clothingapp.git",
     },
   ];
 
